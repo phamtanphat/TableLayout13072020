@@ -9,38 +9,58 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <TextView
+            android:background="#f20"
+            android:gravity="center"
+            android:layout_span="6"
             android:textSize="20sp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="View 1" />
-
-        <TextView
-            android:textSize="20sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="View 2" />
-        <TextView
-            android:textSize="20sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="View 3" />
-        <TextView
-            android:textSize="20sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="View 4" />
     </TableRow>
 
     <TableRow>
         <TextView
-            android:layout_column="1"
+            android:background="#A58C89"
+            android:gravity="center"
+            android:layout_span="2"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View 2" />
+        <TextView
+            android:background="#628835"
+            android:gravity="center"
+            android:layout_span="2"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View 3" />
+        <TextView
+            android:background="#298CB3"
+            android:gravity="center"
+            android:layout_span="2"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View 4" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:background="#7E57C2"
+            android:gravity="center"
             android:layout_span="3"
             android:textSize="20sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="View 5" />
+        <TextView
+            android:background="#FFA726"
+            android:gravity="center"
+            android:layout_span="3"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View 6" />
     </TableRow>
-
 </TableLayout>
